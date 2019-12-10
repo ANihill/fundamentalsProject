@@ -1,6 +1,7 @@
 # import python packages
 import pandas as pd
 from iteround import saferound
+import numpy as np
 # import truncted norm form scipy
 from scipy.stats import truncnorm
 
@@ -163,4 +164,19 @@ pl_ran["Total(P)"] = pl_ran["Points(H)"] + pl_ran["Points(A)"];
 total_ran = pl_ran[["Total(F)", "Total(A)", "Total(Dif)", "Total(P)"]];
 
 # sort by highest points
-total_ran = total_ran.sort_values(by = "Total(P)", ascending=False);
+total_ran = total_ran.sort_values(by = "Total(P)", ascending=False)\
+    .reset_index()\
+    .style\
+    .apply(lambda x: ['background: green' if x.name == 0 else '' for i in x], axis=1)\
+    .apply(lambda x: ['background: lightgreen' if x.name == 1 else '' for i in x], axis=1)\
+    .apply(lambda x: ['background: lightgreen' if x.name == 2 else '' for i in x], axis=1)\
+    .apply(lambda x: ['background: lightgreen' if x.name == 3 else '' for i in x], axis=1)\
+    .apply(lambda x: ['background: yellow' if x.name == 4 else '' for i in x], axis=1)\
+    .apply(lambda x: ['background: indianred' if x.name == 17 else '' for i in x], axis=1)\
+    .apply(lambda x: ['background: indianred' if x.name == 18 else '' for i in x], axis=1)\
+    .apply(lambda x: ['background: indianred' if x.name == 19 else '' for i in x], axis=1)\
+    .hide_index()\
+    .set_caption("Premier League Table")
+               
+
+total_ran
