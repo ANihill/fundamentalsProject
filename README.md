@@ -23,6 +23,14 @@ What about points accrued by teams? Analysis of the real world data pointed towa
 
 The code used to generated the random data is presented in two ways. Firstly, the code was presented in blocks detailing each step of the process in the notebook and secondly, it was compiled into a python script that can be run from the notebook outputting a random completed table in order to see how examples of home the code works.
 
+There are three sections to the notebook:
+### Section 1
+This section deals with real world premier league data. Characteristics of the dataset are etablish; the distribution of points across the league, goals scored and conceded at home, and goals and conceded away from home.
+### Section 2
+This section deals with randomly generating dat that shares the characteristics of the real world dataset. The goals scored, and conceded, are randomly generated based attacking an defensive metrics assigned to each team based on their real world statistics.
+### Section 3
+The final section demonstrates how the random dataset shares many of the characteristics of the real world dataset. Obviously the random dataset has the potential for far more variance but these plots show that broadly both datasets follow the same trends.
+
 # References 
 - https://www.researchgate.net/publication/285968917_Home_advantage_in_soccer_Variations_in_its_magnitude_and_a_literature_review_of_the_inter-related_factors_associated_with_its_existence
 - https://www.betfair.com.au/hub/poisson-distribution/
