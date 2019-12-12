@@ -24,13 +24,13 @@ What about points accrued by teams? Analysis of the real world data pointed towa
 The code used to generated the random data is presented in two ways. Firstly, the code was presented in blocks detailing each step of the process in the notebook and secondly, it was compiled into a python script that can be run from the notebook outputting a random completed table in order to see how examples of home the code works.
 
 # References 
-- (https://www.researchgate.net/publication/285968917_Home_advantage_in_soccer_Variations_in_its_magnitude_and_a_literature_review_of_the_inter-related_factors_associated_with_its_existence)
-- (https://www.betfair.com.au/hub/poisson-distribution/)
-- (https://stackoverflow.com/a/44308018)
-- (https://machinelearningmastery.com/a-gentle-introduction-to-normality-tests-in-python/)
-- (https://docs.scipy.org/doc/numpy-1.14.1/reference/generated/numpy.random.poisson.html)
-- (https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.random.normal.html)
-- (https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.truncnorm.html)
-- (https://seaborn.pydata.org/tutorial.html)
-- (https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html)
-- (https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html)
+- https://www.researchgate.net/publication/285968917_Home_advantage_in_soccer_Variations_in_its_magnitude_and_a_literature_review_of_the_inter-related_factors_associated_with_its_existence
+- https://www.betfair.com.au/hub/poisson-distribution/
+- https://stackoverflow.com/a/44308018
+- https://machinelearningmastery.com/a-gentle-introduction-to-normality-tests-in-python/
+- https://docs.scipy.org/doc/numpy-1.14.1/reference/generated/numpy.random.poisson.html
+- https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.random.normal.html
+- https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.truncnorm.html
+- https://seaborn.pydata.org/tutorial.html
+- https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html
+- https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html
